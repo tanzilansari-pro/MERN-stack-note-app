@@ -7,7 +7,7 @@ import cors from "cors"
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 const MONGO_URL = process.env.MONGO_URL;
 
 app.use(cors())
