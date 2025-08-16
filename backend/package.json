@@ -3,20 +3,27 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "dev": "npx nodemon index.js",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+>>>>>>> 5b40f1375726667fc2c8df09cbde1bd8af3c3966
   },
   "keywords": [],
   "author": "Tanzil",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
-    "mongoose": "^8.16.5",
-    "uuid": "^11.1.0"
-  },
-  "type": "module"
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.0"
+  }
 }
